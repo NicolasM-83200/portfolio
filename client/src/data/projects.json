@@ -1,0 +1,107 @@
+[
+  {
+    "_id": "65ae531db6f25b546418b151",
+    "userId": "659bfb7d9bd2721c60b14804",
+    "title": "Booki",
+    "description": "J'ai été chargé de développer l'interface du site avec du code HTML et CSS. J'ai étudié les maquettes (Desktop, tablette et mobile) afin de permettre l'intégration du contenu conformément à la maquette et l'implémentation d'une interface responsive.",
+    "imageUrl": "https://aws-bucket-portfolio-nicolasm.s3.eu-west-1.amazonaws.com/booki_(2)_1705924799079.webp",
+    "githubUrl": "https://github.com/NicolasM-83200/openclassrooms_projet2_booki",
+    "projectUrl": "https://bookinikkoomanixx.netlify.app/",
+    "technologies": ["HTML", "CSS"],
+    "__v": 0
+  },
+  {
+    "_id": "65ae579a5bfa62956840abbc",
+    "userId": "659bfb7d9bd2721c60b14804",
+    "title": "Page web dynamique Javascript",
+    "description": "Dans ce projet j'ai été chargé de développer l'interface du site portfolio d'une architecte. Cette interface est gérée dynamiquement avec javascript, les différents travaux de l'architecte qui sont récupérés de manière dynamique grâce aux appels vers l'API (développée en amont par l'équipe back-end), les travaux sont filtrés par catégories, l'upload de photo vers l'API afin de créer un nouvel élément dans la base de donnée et la gestion de la connexion utilisateur.",
+    "imageUrl": "https://aws-bucket-portfolio-nicolasm.s3.eu-west-1.amazonaws.com/sophie-bluel_1705924769868.webp",
+    "githubUrl": "https://github.com/NicolasM-83200/OC_projet3_archi-sophie-buel",
+    "projectUrl": "",
+    "technologies": ["HTML", "CSS", "JavaScript"],
+    "__v": 0
+  },
+  {
+    "_id": "65ae58285bfa62956840abc4",
+    "userId": "659bfb7d9bd2721c60b14804",
+    "title": "Optimisation SEO - Nina Carducci",
+    "description": "Dans ce projet j'ai contacté un potentiel client afin de lui proposer mes services d'optimisation SEO. Le site de la photographe Nina Carducci avait de gros problèmes de lenteur notamment du aux photos très lourdes.\nJ'ai procédé a l'optimisation des photos en les convertissant au format Webp (plus adapté au web) et en les redimensionnant pour mieux correspondre à l'affichage du site web.\nJ'ai également optimisé le référencement en intérgant différentes balises \"meta\" pour les réseaux sociaux et pour le moteur de recherche Google.\nPour finir j'ai revu le code HTML afin de respecter les bonnes pratiques et l'accessibilité, ordre sémantique des balises, présence de certaines balises \"indispensables\" telles que les titres (h1, h2, h3, etc...), sections, articles, header (en-tête) et footer (pied-de-page).",
+    "imageUrl": "https://aws-bucket-portfolio-nicolasm.s3.eu-west-1.amazonaws.com/nina-carducci_1705924749355.webp",
+    "githubUrl": "https://github.com/NicolasM-83200/nina-carducci.github.io",
+    "projectUrl": "https://manigand-oc-nina-carducci.netlify.app/",
+    "technologies": ["HTML", "CSS", "Bootstrap", "Netlify"],
+    "__v": 0
+  },
+  {
+    "_id": "65ae5925e88683a382399cc6",
+    "userId": "659bfb7d9bd2721c60b14804",
+    "title": "Kasa",
+    "description": "Kasa fait partie des leaders de la location d'appartements entre particuliers, ils souhaitent procéder a une refonte totale de leur site internet, codé il y a plus de 10ans en ASP.NET, pour passer à une stack complète javascript avec React côté front-end et node.js côté back-end. J'ai donc du réaliser l'intégration avec React.\nCela m'a permis d'intégrer une interface dynamique et fluide grâce aux composants réutilisables avec React, et la configuration de la navigation entre les pages de l'application avec React-Router.\nL'interface CSS a été développée avec SASS afin de pouvoir permettre une meilleur maintenabilité.",
+    "imageUrl": "https://aws-bucket-portfolio-nicolasm.s3.eu-west-1.amazonaws.com/kasa_1705924901523.webp",
+    "githubUrl": "https://github.com/NicolasM-83200/OC-projet6-Kasa-location-immo",
+    "projectUrl": "https://oc-p6-manigand.netlify.app/",
+    "technologies": ["React", "JavaScript", "SASS", "HTML", "CSS", "Netlify"],
+    "__v": 0
+  },
+  {
+    "_id": "65ae5a49e88683a382399cce",
+    "userId": "659bfb7d9bd2721c60b14804",
+    "title": "Mon Vieux Grimoire",
+    "description": "La chaine de librairies lilloise \"Le Vieux Grimoire\" souhaites ouvrir un site de référencement et de notation de livres au nom de \"Mon Vieux Grimoire\".\nJ'ai du développer le code back-end du site avec Node.js, Express.js et MongoDb. Cela m'a permis de mettre en place un serveur sous Node; de construire un API qui permet la récupération de données issues de la base de données; la création, l'upload et optimisation d'images (avec la bibliothèque Sharp), la sauvegarde de nouveaux éléments dans la base de données et différentes opérations CRUD (Create, Read, Update, Delete).\nJ'ai également du sécuriser la base de données ainsi que l'API avec différents middleware pour la sécurisation des requêtes HTTP ainsi que l'authentification à l'aide de JsonWebToken (clé utilisateurs unique).",
+    "imageUrl": "https://aws-bucket-portfolio-nicolasm.s3.eu-west-1.amazonaws.com/vieux-grimoire_1705925193746.webp",
+    "githubUrl": "https://github.com/NicolasM-83200/P7-backend-livres",
+    "projectUrl": "",
+    "technologies": ["React", "Node", "MongoDB", "Express"],
+    "__v": 0
+  },
+  {
+    "_id": "65ae5cffe88683a382399cd4",
+    "userId": "659bfb7d9bd2721c60b14804",
+    "title": "Portfolio",
+    "description": "Le site sur lequel vous vous trouvez !\nCette application a été développée avec React ainsi que TailWindCSS pour le style. La principale difficulté aura été l'utilisation du framework CSS Tailwind (première utilisation) et l'organisation du travail a effectuer \"from scratch\": création d'un tableau \"Kanban\" avec planning et tâches à réaliser, mise en place d'un maquette avec Figma et démarrage d'un projet avec Vite.\nJ'ai également mis en place une base de données avec MongoDb afin de stocker mes différents projets de manière dynamique, j'ai construis un API pour communiquer avec ma base de données.\nL'ajout de projet se fait grâce à un formulaire (qui permet également la modification de projet) et la connexion utilisateur est gérer grâce au contexte de React afin de pouvoir partager l'information à tout les composants en ayant besoin.",
+    "imageUrl": "https://aws-bucket-portfolio-nicolasm.s3.eu-west-1.amazonaws.com/portfolio_1705926158410.webp",
+    "githubUrl": "https://github.com/NicolasM-83200/Portfolio",
+    "projectUrl": "",
+    "technologies": [
+      "React",
+      "Node",
+      "MongoDB",
+      "Express",
+      "Tailwind",
+      "Netlify",
+      "Figma"
+    ],
+    "__v": 0
+  },
+  {
+    "_id": "65df0f015d489abb0de9d729",
+    "userId": "659bfb7d9bd2721c60b14804",
+    "title": "Never Give Up - web site",
+    "description": "Site web du groupe de hardcore toulonnais Never Give Up. Le site a été réalisé avec React, sur la page 'photos' celles-ci sont récupérées depuis la page pro Facebook à l'aide de l'API Graph de Meta. Elles sont ensuite affichées sous forme de galerie avec les librairies 'yet-another-react-lightbox' et 'react-photo-album'.",
+    "imageUrl": "https://aws-bucket-portfolio-nicolasm.s3.eu-west-1.amazonaws.com/Capture_d'Ã©cran_2024-02-26_121745_1709117185066.webp",
+    "githubUrl": "https://github.com/NicolasM-83200/ngu-web-site",
+    "projectUrl": "https://nevergiveuphxc.netlify.app/",
+    "technologies": [
+      "React",
+      "JavaScript",
+      "HTML",
+      "CSS",
+      "SASS",
+      "Git",
+      "GitHub",
+      "Netlify"
+    ],
+    "__v": 0
+  },
+  {
+    "_id": "65df3ceb76e1750512638aee",
+    "userId": "659bfb7d9bd2721c60b14804",
+    "title": "Copie landing page EVH",
+    "description": "Il s'agit de la copie de la landing page du site EVH qui est un fabriquant de guitare électriques américain.",
+    "imageUrl": "https://aws-bucket-portfolio-nicolasm.s3.eu-west-1.amazonaws.com/Capture_d'Ã©cran_2024-02-05_132750_1709128938775.webp",
+    "githubUrl": "https://github.com/NicolasM-83200/reproduction-site-evh",
+    "projectUrl": "",
+    "technologies": ["HTML", "CSS"],
+    "__v": 0
+  }
+]

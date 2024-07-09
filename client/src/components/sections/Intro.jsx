@@ -1,9 +1,20 @@
-import React from "react";
+import React, { useRef, useState } from "react";
 import photoProfil from "../../assets/images/profil.webp";
+import presentationVideo from "../../assets/videos/presentation.mp4";
 import titreSvgDesktop from "../../assets/images/titre-portfolio.svg";
 import titreSvgMobile from "../../assets/images/titre-portfolio-mobile.svg";
 
 const Intro = () => {
+  const [isMuted, setIsMuted] = useState(false);
+  const [isPaused, setIsPaused] = useState(true);
+  const videoRef = useRef();
+  const handlePlay = () => {
+    if (isPaused) {
+      videoRef.current.play();
+    } else {
+      videoRef.current.pause();
+    }
+  };
   return (
     <section
       id="intro"
@@ -43,6 +54,23 @@ const Intro = () => {
             height={654}
             alt="Photo de profil de Nicolas Manigand"
           />
+          {/* <div className="relative w-[70%] translate-x-[900px] animate-trans-right md:w-auto">
+            <video
+              id="profileVideo"
+              onPlaying={() => setIsPaused(false)}
+              onPause={() => setIsPaused(true)}
+              onClick={handlePlay}
+              muted={isMuted}
+              ref={videoRef}
+            >
+              <source src={presentationVideo} type="video/mp4" />
+            </video>
+            <div className=" absolute left-1/2 top-1/2 flex -translate-x-1/2 -translate-y-1/2 flex-col items-center justify-center gap-2">
+              <button className="p-6" onClick={() => setIsMuted(!isMuted)}>
+                Mute
+              </button>
+            </div>
+          </div> */}
         </div>
       </div>
     </section>

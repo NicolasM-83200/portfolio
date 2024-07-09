@@ -3,6 +3,7 @@ import { useNavigate, useParams } from "react-router-dom";
 import { disableBodyScroll, enableBodyScroll } from "body-scroll-lock";
 import InfoProject from "./InfoProject";
 import { getProjects } from "../lib/common";
+import projectsFromJson from "../data/projects.json";
 
 const Modal = () => {
   const modalRef = useRef();
@@ -19,19 +20,19 @@ const Modal = () => {
     };
   }, []);
 
-  const [projects, setProjects] = useState([]);
+  // const [projects, setProjects] = useState([]);
 
-  useEffect(() => {
-    async function getProjectsList() {
-      const data = await getProjects();
-      if (data) {
-        setProjects(data);
-      }
-    }
-    getProjectsList();
-  }, []);
+  // useEffect(() => {
+  //   async function getProjectsList() {
+  //     const data = await getProjects();
+  //     if (data) {
+  //       setProjects(data);
+  //     }
+  //   }
+  //   getProjectsList();
+  // }, []);
 
-  const project = projects.find((project) => project._id === id);
+  const project = projectsFromJson.find((project) => project._id === id);
 
   return (
     <div

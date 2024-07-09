@@ -1,11 +1,13 @@
 import React, { useEffect, useState } from "react";
 import { Link, useLocation } from "react-router-dom";
 import { getProjects } from "../lib/common";
+import projectsFromJson from "../data/projects.json";
 
 const GalleryProjects = () => {
   const location = useLocation();
   const [projects, setProjects] = useState(null);
-  const [loading, setLoading] = useState(true);
+  // const [loading, setLoading] = useState(true);
+  const [loading, setLoading] = useState(false);
 
   useEffect(() => {
     async function getProjectsList() {
@@ -42,7 +44,7 @@ const GalleryProjects = () => {
         </div>
       ) : (
         <div className="my-5 grid grid-cols-1 items-center gap-6 md:grid-cols-2 xl:grid-cols-3">
-          {projects.toReversed().map((project) => (
+          {projectsFromJson.toReversed().map((project) => (
             <Link
               key={project._id}
               to={`/modal/${project._id}`}
